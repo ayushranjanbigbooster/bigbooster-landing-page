@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Bigbooster – Free Mock Tests, Live Exams & Practice for Railway, SSC, Banking & State Exams</title>
+    <link rel="icon" href="https://bigbooster.in/favicon.ico" type="image/x-icon" />
+
+    <meta name="description"
+        content="Prepare for Railway ALP, RRB, SSC, Banking, BPSC & other competitive exams with Bigbooster. Get free mock tests, live exams, detailed solutions, performance analytics and daily practice sets." />
+
+    <meta name="keywords"
+        content="Bigbooster, Railway ALP mock test, RRB JE practice, SSC CGL mock test, Banking exam preparation, BPSC preparation, free mock test app, competitive exam app India" />
+
+    <meta name="author" content="Bigbooster Technology Private Limited" />
+
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:title" content="Bigbooster – Master Your Future with Smart Exam Preparation" />
+    <meta property="og:description"
+        content="Free mock tests, live exams & smart analytics for Railway, SSC, Banking & State exams. Download Bigbooster App now." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bigbooster.in" />
+    <meta property="og:image" content="https://bigbooster.in/og-image.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bigbooster – Smart Competitive Exam Preparation App" />
+    <meta name="twitter:description"
+        content="Practice Railway, SSC, Banking & State exams with free mock tests and live exams on Bigbooster." />
+    <meta name="twitter:image" content="https://bigbooster.in/og-image.jpg" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+
+        * {
+            font-family: "Wix Madefor Display", sans-serif;
+        }
+
+        .wixText {
+            font-family: "Wix Madefor Text", serif;
+        }
+    </style>
+
+    <!-- Tailwind CSS v3 CDN with plugins -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'cyber-green': '#22c55e',
+                        'cyber-blue': '#3b82f6',
+                        'cyber-dark': '#0f172a',
+                    },
+                    backgroundImage: {
+                        'neon-gradient': 'linear-gradient(135deg, #22c55e 0%, #3b82f6 100%)',
+                        'glass-gradient': 'linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style data-purpose="custom-animations">
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-20px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .glow-effect:hover {
+            box-shadow: 0 0 20px rgba(34, 197, 94, 0.4);
+        }
+    </style>
+</head>
+
+<body class="bg-white text-slate-900 font-sans selection:bg-cyber-green selection:text-white">
+    <!-- BEGIN: Navigation -->
+    <!-- BEGIN: Navigation -->
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex items-center gap-2 min-w-0">
+                    <div
+                        class="w-10 h-10 bg-cyber-green rounded-xl flex items-center justify-center text-white font-bold text-2xl shadow-lg shadow-green-200 shrink-0">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <span class="text-lg sm:text-2xl font-black tracking-tight text-cyber-dark truncate">
+                        Bigbooster App
+                    </span>
+                </div>
+
+                <!-- Mobile CTA -->
+                <div class="md:hidden">
+                    <a href="https://play.google.com/store/apps/details?id=in.bigbooster.bigbooster&referrer=utm_source%3Dlanding_page%26utm_medium%3Dlanding_page%26utm_campaign%3Dlanding_page"
+                        target="_blank" rel="noopener noreferrer"
+                        class="inline-flex items-center justify-center bg-cyber-green text-white px-4 py-2 rounded-full font-bold shadow-lg shadow-green-200 active:scale-95 transition-transform">
+                        Download
+                    </a>
+                </div>
+
+                <!-- Desktop Nav Links -->
+                <div class="hidden md:flex items-center space-x-8 font-medium text-slate-600">
+                    <a class="hover:text-cyber-green transition-colors" href="https://bigbooster.in/">Exams</a>
+                    <a class="hover:text-cyber-green transition-colors" href="https://bigbooster.in/">Mock Tests</a>
+                    <a class="hover:text-cyber-green transition-colors" href="https://bigbooster.in/">Current
+                        Affairs</a>
+                    <a class="hover:text-cyber-green transition-colors" href="https://bigbooster.in/">Notes</a>
+                    <a href="https://play.google.com/store/apps/details?id=in.bigbooster.bigbooster&referrer=utm_source%3Dlanding_page%26utm_medium%3Dlanding_page%26utm_campaign%3Dlanding_page"
+                        target="_blank" rel="noopener noreferrer">
+                        <button
+                            class="bg-cyber-green text-white px-6 py-2.5 rounded-full font-bold shadow-lg shadow-green-200 hover:scale-105 transition-transform active:scale-95">
+                            Download App
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END: Navigation -->
+    <!-- END: Navigation -->
+    <!-- BEGIN: HeroSection -->
+    <section class="relative pt-12 pb-24 lg:pt-24 lg:pb-32 overflow-hidden">
+        <div class="absolute top-0 right-0 -z-10 w-1/2 h-full bg-gradient-to-l from-green-50 to-transparent opacity-50">
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
+            <!-- Content -->
+            <div data-purpose="hero-text-content">
+                <div
+                    class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-100 text-green-700 font-bold text-sm mb-6 border border-green-200">
+                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                        <path
+                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                        </path>
+                    </svg>
+                    TRUSTED BY 10 LAKH PLUS STUDENTS
+                </div>
+                <h1 class="text-5xl lg:text-7xl font-black text-cyber-dark leading-tight mb-6">
+                    Master Your Future with <span
+                        class="text-transparent bg-clip-text bg-neon-gradient">Bigbooster</span>
+                </h1>
+                <p class="text-xl text-slate-500 mb-10 leading-relaxed max-w-lg wixText">
+                    Access 10,000+ Mock Tests, Free Live Quizzes, and NCERT Original Notes for all major competitive
+                    exams. Start your journey to success today.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="https://play.google.com/store/apps/details?id=in.bigbooster.bigbooster&referrer=utm_source%3Dlanding_page%26utm_medium%3Dlanding_page%26utm_campaign%3Dlanding_page"
+                        target="_blank" rel="noopener noreferrer"
+                        class="bg-cyber-green text-white px-8 py-4 rounded-2xl font-bold text-lg shadow-xl shadow-green-200 flex items-center justify-center gap-3 hover:shadow-2xl hover:-translate-y-1 transition-all inline-flex">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M17.523 15.3414L12 21L6.47715 15.3414C4.16238 12.9663 4.16238 9.10931 6.47715 6.73426L12 1.07568L17.523 6.73426C19.8376 9.10931 19.8376 12.9663 17.523 15.3414Z">
+                            </path>
+                        </svg>
+                        Download App
+                    </a>
+                    <a href="https://bigbooster.in" target="_blank" rel="noopener noreferrer"
+                        class="inline-block bg-white border-2 border-slate-200 text-cyber-dark px-8 py-4 rounded-2xl font-bold text-lg hover:bg-slate-50 transition-colors">
+                        Start Free Test
+                    </a>
+                </div>
+            </div>
+            <!-- 3D Style Image/Illustration -->
+            <div class="relative" data-purpose="hero-illustration">
+                <div
+                    class="absolute -top-10 -left-10 w-72 h-72 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse">
+                </div>
+                <div
+                    class="absolute -bottom-10 -right-10 w-72 h-72 bg-green-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse delay-700">
+                </div>
+                <div class="relative animate-float">
+                    <!-- Main Hero Image -->
+                    <div class="bg-white p-4 rounded-[2.5rem] shadow-2xl border border-white">
+                        <img alt="Learning Experience" class="rounded-[2rem] w-full"
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6CR9UjALQsx1c40d4vtioF30aX8gEWFey2TmHa23YfIS5euGL-qe-TfT-i3SoIuYyquna2jkmdztXxxpWuUgWade8j2Ovq4GhZJsO3znIFnXH259y4DjbpFP1GsviP_mxr4FqyrUwq2Cr2-QhnEV_oZi8RdJmPaqLPNrlNmxVu1fxvq2tQsAkkLUK00mSnG5BZkgObE8eeBTl5uGZ-kTadWFFc7O6JPrq0GKbdsQvCokXgosSrI1KUGSgexhDGZRS-x0KIDLGebwB" />
+                        <div class="absolute -bottom-6 -left-6 glass-card p-6 rounded-3xl shadow-xl max-w-[240px]">
+                            <div class="flex items-center gap-3 mb-2">
+                                <div class="w-2 h-2 rounded-full bg-green-500 animate-ping"></div>
+                                <span class="text-xs font-bold text-slate-400 uppercase tracking-widest">Live Now</span>
+                            </div>
+                            <p class="font-bold text-cyber-dark text-lg leading-tight">Join the elite 1%</p>
+                            <p class="text-sm text-slate-500 mt-1">Personalized learning paths for every student.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END: HeroSection -->
+    <!-- BEGIN: StatsSection -->
+    <section class="py-12 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Stat Item 1 -->
+                <div
+                    class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 flex items-center gap-6 group hover:border-cyber-green transition-colors">
+                    <div
+                        class="w-16 h-16 rounded-2xl bg-green-50 flex items-center justify-center text-cyber-green group-hover:bg-cyber-green group-hover:text-white transition-all">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="text-4xl font-black text-cyber-dark">10 Lakh Plus</p>
+                        <p class="text-slate-500 font-medium">App Downloads</p>
+                    </div>
+                </div>
+                <!-- Stat Item 2 -->
+                <div
+                    class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 flex items-center gap-6 group hover:border-cyber-blue transition-colors">
+                    <div
+                        class="w-16 h-16 rounded-2xl bg-blue-50 flex items-center justify-center text-cyber-blue group-hover:bg-cyber-blue group-hover:text-white transition-all">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path
+                                d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="text-4xl font-black text-cyber-dark">1 Crore+</p>
+                        <p class="text-slate-500 font-medium">Test Attempts</p>
+                    </div>
+                </div>
+                <!-- Stat Item 3 -->
+                <div
+                    class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 flex items-center gap-6 group hover:border-orange-500 transition-colors">
+                    <div
+                        class="w-16 h-16 rounded-2xl bg-orange-50 flex items-center justify-center text-orange-500 group-hover:bg-orange-500 group-hover:text-white transition-all">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path
+                                d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="text-4xl font-black text-cyber-dark">50K+</p>
+                        <p class="text-slate-500 font-medium">Daily Active Users</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END: StatsSection -->
+    <!-- BEGIN: CoreOfferings -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h3 class="text-cyber-green font-bold tracking-widest uppercase mb-4">Our Core Offerings</h3>
+                <h2 class="text-4xl md:text-5xl font-black text-cyber-dark mb-6">Everything you need to crack
+                    exam</h2>
+                <p class="text-slate-500 max-w-2xl mx-auto text-lg">Expertly curated content and powerful analytical
+                    tools to help you stay ahead of the curve.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div
+                    class="glass-card p-10 rounded-[2rem] hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                    <div
+                        class="w-14 h-14 bg-green-500 rounded-2xl flex items-center justify-center text-white mb-8 shadow-lg shadow-green-200">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path
+                                d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01m-.01 4h.01"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-2xl font-bold text-cyber-dark mb-4">10,000+ Mock Tests</h4>
+                    <p class="text-slate-500 leading-relaxed">Practice with the latest exam patterns and high-quality
+                        questions created by top educators.</p>
+                </div>
+                <!-- Card 2 -->
+                <div
+                    class="glass-card p-10 rounded-[2rem] hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                    <div
+                        class="w-14 h-14 bg-blue-500 rounded-2xl flex items-center justify-center text-white mb-8 shadow-lg shadow-blue-200">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-2xl font-bold text-cyber-dark mb-4">Free Live Quizzes</h4>
+                    <p class="text-slate-500 leading-relaxed">Test your speed and accuracy in real-time against
+                        thousands of fellow aspirants.</p>
+                </div>
+                <!-- Card 3 -->
+                <div
+                    class="glass-card p-10 rounded-[2rem] hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                    <div
+                        class="w-14 h-14 bg-orange-500 rounded-2xl flex items-center justify-center text-white mb-8 shadow-lg shadow-orange-200">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path
+                                d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-2xl font-bold text-cyber-dark mb-4">Previous Year Papers</h4>
+                    <p class="text-slate-500 leading-relaxed">Previous year question papers with detailed solutions for
+                        all major exams.</p>
+                </div>
+                <!-- Card 4 -->
+                <div
+                    class="glass-card p-10 rounded-[2rem] hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                    <div
+                        class="w-14 h-14 bg-indigo-500 rounded-2xl flex items-center justify-center text-white mb-8 shadow-lg shadow-indigo-200">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path
+                                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-2xl font-bold text-cyber-dark mb-4">Daily Current Affairs</h4>
+                    <p class="text-slate-500 leading-relaxed">Stay updated with bite-sized daily news, quizzes, and
+                        monthly PDF compilations.</p>
+                </div>
+                <!-- Card 5 -->
+                <div
+                    class="glass-card p-10 rounded-[2rem] hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                    <div
+                        class="w-14 h-14 bg-teal-500 rounded-2xl flex items-center justify-center text-white mb-8 shadow-lg shadow-teal-200">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path
+                                d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-2xl font-bold text-cyber-dark mb-4">NCERT Original Notes</h4>
+                    <p class="text-slate-500 leading-relaxed">Concise, easy-to-read original notes based on NCERT books
+                        for strong fundamentals.</p>
+                </div>
+                <!-- Card 6 -->
+                <div
+                    class="glass-card p-10 rounded-[2rem] hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
+                    <div
+                        class="w-14 h-14 bg-slate-800 rounded-2xl flex items-center justify-center text-white mb-8 shadow-lg shadow-slate-200">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path
+                                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <h4 class="text-2xl font-bold text-cyber-dark mb-4">Performance Analysis</h4>
+                    <p class="text-slate-500 leading-relaxed">Get detailed insights into your strengths and weaknesses
+                        after every mock test.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END: CoreOfferings -->
+    <!-- BEGIN: CategoriesSection -->
+    <section class="py-24 bg-slate-50 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+                <div class="max-w-xl">
+                    <h2 class="text-4xl font-black text-cyber-dark mb-4">Exam Category</h2>
+                    <p class="text-slate-500">We cover a wide range of competitive exams with tailored content for each
+                        category.</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+                <!-- Category Item -->
+                <div
+                    class="bg-white p-8 rounded-[2rem] text-center shadow-sm hover:shadow-xl hover:border-cyber-green border border-transparent transition-all group">
+                    <div
+                        class="w-16 h-16 bg-green-50 rounded-2xl flex items-center justify-center text-green-600 mx-auto mb-6 group-hover:scale-110 transition-transform">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <h5 class="font-bold text-cyber-dark">Railway</h5>
+                </div>
+                <!-- Category Item -->
+                <div
+                    class="bg-white p-8 rounded-[2rem] text-center shadow-sm hover:shadow-xl hover:border-blue-600 border border-transparent transition-all group">
+                    <div
+                        class="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 mx-auto mb-6 group-hover:scale-110 transition-transform">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path
+                                d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <h5 class="font-bold text-cyber-dark">State</h5>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-[2rem] text-center shadow-sm hover:shadow-xl hover:border-blue-600 border border-transparent transition-all group">
+                    <div
+                        class="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center text-blue-600 mx-auto mb-6 group-hover:scale-110 transition-transform">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path
+                                d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <h5 class="font-bold text-cyber-dark">Bihar</h5>
+                </div>
+                <!-- Category Item -->
+                <div
+                    class="bg-white p-8 rounded-[2rem] text-center shadow-sm hover:shadow-xl hover:border-teal-600 border border-transparent transition-all group">
+                    <div
+                        class="w-16 h-16 bg-teal-50 rounded-2xl flex items-center justify-center text-teal-600 mx-auto mb-6 group-hover:scale-110 transition-transform">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path d="M12 14l9-5-9-5-9 5 9 5z" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2"></path>
+                            <path
+                                d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <h5 class="font-bold text-cyber-dark">CTET</h5>
+                </div>
+                <!-- Category Item -->
+                <div
+                    class="bg-white p-8 rounded-[2rem] text-center shadow-sm hover:shadow-xl hover:border-indigo-600 border border-transparent transition-all group">
+                    <div
+                        class="w-16 h-16 bg-indigo-50 rounded-2xl flex items-center justify-center text-indigo-600 mx-auto mb-6 group-hover:scale-110 transition-transform">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <h5 class="font-bold text-cyber-dark">SSC</h5>
+                </div>
+                <!-- Category Item -->
+                <div
+                    class="bg-white p-8 rounded-[2rem] text-center shadow-sm hover:shadow-xl hover:border-purple-600 border border-transparent transition-all group">
+                    <div
+                        class="w-16 h-16 bg-purple-50 rounded-2xl flex items-center justify-center text-purple-600 mx-auto mb-6 group-hover:scale-110 transition-transform">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path
+                                d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <h5 class="font-bold text-cyber-dark">Technical</h5>
+                </div>
+                <!-- Category Item -->
+                <div
+                    class="bg-white p-8 rounded-[2rem] text-center shadow-sm hover:shadow-xl hover:border-red-600 border border-transparent transition-all group">
+                    <div
+                        class="w-16 h-16 bg-red-50 rounded-2xl flex items-center justify-center text-red-600 mx-auto mb-6 group-hover:scale-110 transition-transform">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path
+                                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <h5 class="font-bold text-cyber-dark">Defence</h5>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-[2rem] text-center shadow-sm hover:shadow-xl hover:border-red-600 border border-transparent transition-all group">
+                    <div
+                        class="w-16 h-16 bg-red-50 rounded-2xl flex items-center justify-center text-red-600 mx-auto mb-6 group-hover:scale-110 transition-transform">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path
+                                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <h5 class="font-bold text-cyber-dark">School</h5>
+                </div>
+                <div
+                    class="bg-white p-8 rounded-[2rem] text-center shadow-sm hover:shadow-xl hover:border-red-600 border border-transparent transition-all group">
+                    <div
+                        class="w-16 h-16 bg-red-50 rounded-2xl flex items-center justify-center text-red-600 mx-auto mb-6 group-hover:scale-110 transition-transform">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+                            <path
+                                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                                stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                        </svg>
+                    </div>
+                    <h5 class="font-bold text-cyber-dark">Others</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END: CategoriesSection -->
+    <!-- BEGIN: CallToAction -->
+    <section class="relative py-20 md:py-28 px-4 bg-white overflow-hidden">
+        <!-- Ambient background -->
+        <div class="absolute inset-0">
+            <div
+                class="absolute -top-56 left-1/2 -translate-x-1/2 w-[900px] h-[900px] rounded-full bg-cyber-green/15 blur-3xl">
+            </div>
+            <div
+                class="absolute -bottom-56 left-1/2 -translate-x-1/2 w-[900px] h-[900px] rounded-full bg-cyber-blue/15 blur-3xl">
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-b from-white via-white to-slate-50"></div>
+        </div>
+
+        <div class="relative max-w-7xl mx-auto">
+            <!-- Outer ring + glow -->
+            <div
+                class="relative rounded-[2.5rem] md:rounded-[3rem] p-[1px] bg-gradient-to-r from-cyber-green/60 via-white/10 to-cyber-blue/60 shadow-[0_30px_120px_rgba(2,6,23,0.18)]">
+                <div class="relative rounded-[2.45rem] md:rounded-[2.95rem] overflow-hidden bg-cyber-dark">
+                    <!-- Inner glow overlay -->
+                    <div class="absolute inset-0">
+                        <div
+                            class="absolute -top-40 -left-40 w-[520px] h-[520px] rounded-full bg-cyber-green/25 blur-3xl">
+                        </div>
+                        <div
+                            class="absolute -bottom-40 -right-40 w-[520px] h-[520px] rounded-full bg-cyber-blue/25 blur-3xl">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-br from-white/8 via-transparent to-white/0"></div>
+                        <div class="absolute inset-0 opacity-[0.08]"
+                            style="background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.8) 1px, transparent 0); background-size: 22px 22px;">
+                        </div>
+                    </div>
+
+                    <div class="relative z-10 grid lg:grid-cols-2 gap-10 items-center p-8 md:p-14 lg:p-20">
+                        <!-- Left -->
+                        <div class="text-center lg:text-left">
+                            <div
+                                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/15 text-white/90 text-sm font-bold mb-6">
+                                <span
+                                    class="inline-block w-2 h-2 rounded-full bg-cyber-green shadow-[0_0_20px_rgba(34,197,94,0.8)]"></span>
+                                Trusted by 10 Lakh Plus Aspirants
+                            </div>
+
+                            <h2 class="text-3xl md:text-5xl lg:text-6xl font-black text-white leading-[1.05]">
+                                Crack exams with
+                                <span class="text-transparent bg-clip-text bg-neon-gradient"> speed</span>
+                                <span class="text-transparent bg-clip-text bg-neon-gradient"> practice</span> and
+                                <span class="text-transparent bg-clip-text bg-neon-gradient"> confidence</span>.
+                            </h2>
+
+                            <p class="mt-6 text-white/75 text-base md:text-xl max-w-xl mx-auto lg:mx-0 leading-relaxed">
+                                Free mock tests, live quizzes, NCERT notes and deep performance analysis — everything in
+                                one place.
+                            </p>
+
+                            <!-- CTAs -->
+                            <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                                <a href="https://play.google.com/store/apps/details?id=in.bigbooster.bigbooster&referrer=utm_source%3Dlanding_page%26utm_medium%3Dlanding_page%26utm_campaign%3Dlanding_page"
+                                    target="_blank" rel="noopener noreferrer" class="group relative inline-flex items-center justify-center gap-3 rounded-2xl px-8 py-4 font-black text-lg text-white
+                       bg-gradient-to-r from-cyber-green to-emerald-500 shadow-[0_18px_60px_rgba(34,197,94,0.35)]
+                       hover:shadow-[0_18px_80px_rgba(34,197,94,0.5)] hover:-translate-y-0.5 transition-all">
+                                    <span
+                                        class="absolute inset-0 rounded-2xl bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity"></span>
+                                    <svg class="relative w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                        <path
+                                            d="M17.523 15.3414L12 21L6.47715 15.3414C4.16238 12.9663 4.16238 9.10931 6.47715 6.73426L12 1.07568L17.523 6.73426C19.8376 9.10931 19.8376 12.9663 17.523 15.3414Z">
+                                        </path>
+                                    </svg>
+                                    <span class="relative">Get App</span>
+                                    <span
+                                        class="relative ml-1 text-white/90 group-hover:translate-x-1 transition-transform">→</span>
+                                </a>
+
+                                <a href="https://bigbooster.in" target="_blank" rel="noopener noreferrer"
+                                    class="inline-flex items-center justify-center gap-2 rounded-2xl px-8 py-4 font-black text-lg text-white
+                       bg-white/10 backdrop-blur-md border border-white/15 hover:bg-white/15 hover:-translate-y-0.5 transition-all">
+                                    Start Test
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Right: Premium mock UI -->
+                        <div class="relative hidden lg:block">
+                            <div
+                                class="absolute -inset-6 rounded-[2.5rem] bg-gradient-to-br from-cyber-green/25 via-transparent to-cyber-blue/25 blur-2xl">
+                            </div>
+
+                            <div
+                                class="relative rounded-[2.5rem] p-[1px] bg-gradient-to-br from-white/25 via-white/5 to-white/10">
+                                <div class="rounded-[2.45rem] bg-slate-950/70 border border-white/10 p-7 shadow-2xl">
+                                    <!-- top bar -->
+                                    <div class="flex items-center justify-between">
+                                        <div class="flex items-center gap-2">
+                                            <span class="w-2.5 h-2.5 rounded-full bg-red-400/80"></span>
+                                            <span class="w-2.5 h-2.5 rounded-full bg-yellow-400/80"></span>
+                                            <span class="w-2.5 h-2.5 rounded-full bg-green-400/80"></span>
+                                        </div>
+                                        <div class="text-xs font-bold text-white/60">Bigbooster Live</div>
+                                    </div>
+
+                                    <!-- content -->
+                                    <div class="mt-6 grid grid-cols-2 gap-4">
+                                        <div class="rounded-2xl bg-white/5 border border-white/10 p-4">
+                                            <div class="text-white/80 font-black">Mock Tests</div>
+                                            <div class="mt-2 h-2 rounded-full bg-white/10 overflow-hidden">
+                                                <div class="h-full w-2/3 bg-cyber-green/70 rounded-full"></div>
+                                            </div>
+                                            <div class="mt-3 text-xs text-white/60">Attempt • Analyze • Improve</div>
+                                        </div>
+
+                                        <div class="rounded-2xl bg-white/5 border border-white/10 p-4">
+                                            <div class="text-white/80 font-black">Live Quiz</div>
+                                            <div class="mt-2 flex items-center gap-2">
+                                                <span class="w-2 h-2 rounded-full bg-cyber-green animate-pulse"></span>
+                                                <span class="text-xs text-white/70 font-bold">LIVE now</span>
+                                            </div>
+                                            <div class="mt-3 text-xs text-white/60">Compete with thousands</div>
+                                        </div>
+
+                                        <div class="col-span-2 rounded-2xl bg-white/5 border border-white/10 p-4">
+                                            <div class="flex items-center justify-between">
+                                                <div class="text-white/80 font-black">Performance</div>
+                                                <div class="text-xs text-white/60 font-bold">Last 7 days</div>
+                                            </div>
+                                            <div class="mt-4 grid grid-cols-6 gap-2 items-end h-20">
+                                                <div class="bg-cyber-green/35 rounded-lg h-8"></div>
+                                                <div class="bg-cyber-green/45 rounded-lg h-10"></div>
+                                                <div class="bg-cyber-green/55 rounded-lg h-14"></div>
+                                                <div class="bg-cyber-blue/35 rounded-lg h-9"></div>
+                                                <div class="bg-cyber-blue/45 rounded-lg h-12"></div>
+                                                <div class="bg-cyber-blue/55 rounded-lg h-16"></div>
+                                            </div>
+                                            <div class="mt-3 text-xs text-white/60">Smart insights after every test
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- floating badge -->
+                            <div
+                                class="absolute -bottom-6 -left-6 rounded-2xl bg-white/10 backdrop-blur-md border border-white/15 px-5 py-4 shadow-2xl">
+                                <div class="text-white font-black text-lg">10 Lakh Plus ✅</div>
+                                <div class="text-white/70 text-xs font-bold mt-1">Trusted students</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mobile subtle highlight -->
+                    <div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/30 to-transparent"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
